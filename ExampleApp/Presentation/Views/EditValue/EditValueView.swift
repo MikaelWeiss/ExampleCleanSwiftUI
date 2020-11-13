@@ -1,6 +1,6 @@
 //
 //  EditValueView.swift
-//  Raindrop
+//  ExampleApp
 //
 //  Created by Mikael Weiss on 10/26/20.
 //

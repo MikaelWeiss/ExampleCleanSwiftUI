@@ -1,6 +1,6 @@
 //
 //  EditValuePresenterTests.swift
-//  RaindropTests
+//  ExampleAppTests
 //
 //  Created by Mikael Weiss on 11/9/20.
 //

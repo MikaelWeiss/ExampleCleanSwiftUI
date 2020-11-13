@@ -1,6 +1,6 @@
 //
 //  Date+Extentions.swift
-//  Raindrop
+//  ExampleApp
 //
 //  Created by Mikael Weiss on 10/3/20.
 //

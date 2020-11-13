@@ -1,13 +1,13 @@
 //
-//  RaindropUITests.swift
-//  RaindropUITests
+//  ExampleAppUITests.swift
+//  ExampleAppUITests
 //
 //  Created by Mikael Weiss on 9/26/20.
 //
 
 import XCTest
 
-class RaindropUITests: XCTestCase {
+class ExampleAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

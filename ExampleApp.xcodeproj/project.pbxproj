@@ -13,8 +13,8 @@
 		A5BB058F251FCD2300694FF9 /* RaindropApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BB058E251FCD2300694FF9 /* RaindropApp.swift */; };
 		A5BB0593251FCD2400694FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BB0592251FCD2400694FF9 /* Assets.xcassets */; };
 		A5BB0596251FCD2400694FF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BB0595251FCD2400694FF9 /* Preview Assets.xcassets */; };
-		A5BB05A1251FCD2400694FF9 /* RaindropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BB05A0251FCD2400694FF9 /* RaindropTests.swift */; };
-		A5BB05AC251FCD2500694FF9 /* RaindropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BB05AB251FCD2500694FF9 /* RaindropUITests.swift */; };
+		A5BB05A1251FCD2400694FF9 /* ExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BB05A0251FCD2400694FF9 /* ExampleAppTests.swift */; };
+		A5BB05AC251FCD2500694FF9 /* ExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BB05AB251FCD2500694FF9 /* ExampleAppUITests.swift */; };
 		A5C1B472255A26CA00DD35D2 /* EditValueViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEEDB72559FA3F00CD4E25 /* EditValueViewTests.swift */; };
 		A5DE7794254A109300832862 /* EditValueInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DE7793254A109300832862 /* EditValueInteractor.swift */; };
 		A5DE7799254A110000832862 /* EditValueScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DE7798254A110000832862 /* EditValueScene.swift */; };
@@ -63,10 +63,10 @@
 		A5BB0595251FCD2400694FF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5BB0597251FCD2400694FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5BB059C251FCD2400694FF9 /* ExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5BB05A0251FCD2400694FF9 /* RaindropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaindropTests.swift; sourceTree = "<group>"; };
+		A5BB05A0251FCD2400694FF9 /* ExampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppTests.swift; sourceTree = "<group>"; };
 		A5BB05A2251FCD2400694FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5BB05A7251FCD2500694FF9 /* ExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5BB05AB251FCD2500694FF9 /* RaindropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaindropUITests.swift; sourceTree = "<group>"; };
+		A5BB05AB251FCD2500694FF9 /* ExampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppUITests.swift; sourceTree = "<group>"; };
 		A5BB05AD251FCD2500694FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5C1B487255A39D800DD35D2 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
 		A5C1B488255A39D800DD35D2 /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
@@ -271,7 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				A5BB05A2251FCD2400694FF9 /* Info.plist */,
-				A5BB05A0251FCD2400694FF9 /* RaindropTests.swift */,
+				A5BB05A0251FCD2400694FF9 /* ExampleAppTests.swift */,
 			);
 			path = ExampleAppTests;
 			sourceTree = "<group>";
@@ -280,7 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				A5BB05AD251FCD2500694FF9 /* Info.plist */,
-				A5BB05AB251FCD2500694FF9 /* RaindropUITests.swift */,
+				A5BB05AB251FCD2500694FF9 /* ExampleAppUITests.swift */,
 			);
 			path = ExampleAppUITests;
 			sourceTree = "<group>";
@@ -520,7 +520,7 @@
 				A5DEEDB32559F77900CD4E25 /* EditValueServiceTests.swift in Sources */,
 				A5C1B472255A26CA00DD35D2 /* EditValueViewTests.swift in Sources */,
 				A5DEEDA02559E6A500CD4E25 /* EditValueInteractorTests.swift in Sources */,
-				A5BB05A1251FCD2400694FF9 /* RaindropTests.swift in Sources */,
+				A5BB05A1251FCD2400694FF9 /* ExampleAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5BB05AC251FCD2500694FF9 /* RaindropUITests.swift in Sources */,
+				A5BB05AC251FCD2500694FF9 /* ExampleAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -768,7 +768,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Raindrop;
+				TEST_TARGET_NAME = ExampleApp;
 			};
 			name = Debug;
 		};
@@ -788,7 +788,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Raindrop;
+				TEST_TARGET_NAME = ExampleApp;
 			};
 			name = Release;
 		};

@@ -1,6 +1,6 @@
 //
 //  LogEntry.swift
-//  Raindrop
+//  ExampleApp
 //
 //  Created by Mikael Weiss on 9/30/20.
 //

@@ -1,6 +1,6 @@
 //
-//  RaindropApp.swift
-//  Raindrop
+//  ExampleAppApp.swift
+//  ExampleApp
 //
 //  Created by Mikael Weiss on 9/26/20.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct RaindropApp: App {
+struct ExampleAppApp: App {
     @State private var selectedTab = Tabs.editValue
     
     enum Tabs: Hashable {

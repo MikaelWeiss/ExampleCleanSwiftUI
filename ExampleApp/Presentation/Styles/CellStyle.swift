@@ -1,6 +1,6 @@
 //
 //  CellStyle.swift
-//  Raindrop
+//  ExampleApp
 //
 //  Created by Mikael Weiss on 11/4/20.
 //
