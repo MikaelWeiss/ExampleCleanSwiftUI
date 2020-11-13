@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5000C262528D59B00A0CB77 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5000C252528D59B00A0CB77 /* Selection.swift */; };
-		A5000C2B2528D60700A0CB77 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5000C2A2528D60700A0CB77 /* Checklist.swift */; };
 		A5000C302528D77800A0CB77 /* Date+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5000C2F2528D77800A0CB77 /* Date+Extentions.swift */; };
-		A5530E2C2521406A00739F00 /* LogInputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5530E2B2521406A00739F00 /* LogInputType.swift */; };
 		A5B0221F2525777C007412CC /* LogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0221E2525777C007412CC /* LogEntry.swift */; };
-		A5B022242525791C007412CC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B022232525791C007412CC /* Item.swift */; };
 		A5B6D7D2254768E000DDB5E2 /* EditValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6D7D1254768E000DDB5E2 /* EditValueView.swift */; };
 		A5BB058F251FCD2300694FF9 /* RaindropApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BB058E251FCD2300694FF9 /* RaindropApp.swift */; };
 		A5BB0593251FCD2400694FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BB0592251FCD2400694FF9 /* Assets.xcassets */; };
@@ -58,12 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A5000C252528D59B00A0CB77 /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
-		A5000C2A2528D60700A0CB77 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 		A5000C2F2528D77800A0CB77 /* Date+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Date+Extentions.swift"; path = "ExampleApp/Domain/SupportTypes/Extensions/Date+Extentions.swift"; sourceTree = SOURCE_ROOT; };
-		A5530E2B2521406A00739F00 /* LogInputType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInputType.swift; sourceTree = "<group>"; };
 		A5B0221E2525777C007412CC /* LogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntry.swift; sourceTree = "<group>"; };
-		A5B022232525791C007412CC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A5B6D7D1254768E000DDB5E2 /* EditValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditValueView.swift; sourceTree = "<group>"; };
 		A5BB058B251FCD2300694FF9 /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BB058E251FCD2300694FF9 /* RaindropApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaindropApp.swift; sourceTree = "<group>"; };
@@ -189,36 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				A5399F72253256390096A957 /* Extensions */,
-				A54C0446251FE95B00EEA9D2 /* Enums */,
-				A54C0445251FE95300EEA9D2 /* Protocols */,
-				A54C0447251FE96500EEA9D2 /* HelperTypes */,
 			);
 			path = SupportTypes;
-			sourceTree = "<group>";
-		};
-		A54C0445251FE95300EEA9D2 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		A54C0446251FE95B00EEA9D2 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				A5530E2B2521406A00739F00 /* LogInputType.swift */,
-			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
-		A54C0447251FE96500EEA9D2 /* HelperTypes */ = {
-			isa = PBXGroup;
-			children = (
-				A5B022232525791C007412CC /* Item.swift */,
-				A5000C252528D59B00A0CB77 /* Selection.swift */,
-				A5000C2A2528D60700A0CB77 /* Checklist.swift */,
-			);
-			path = HelperTypes;
 			sourceTree = "<group>";
 		};
 		A5A86ADF255DA880001D3CD9 /* GenericThings */ = {
@@ -526,7 +490,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5000C262528D59B00A0CB77 /* Selection.swift in Sources */,
 				A5B0221F2525777C007412CC /* LogEntry.swift in Sources */,
 				A5E7987F255305EA00DCC918 /* FontStyle.swift in Sources */,
 				A5DE77A3254A122700832862 /* EditValuePresenter.swift in Sources */,
@@ -536,18 +499,15 @@
 				A5000C302528D77800A0CB77 /* Date+Extentions.swift in Sources */,
 				A5DE7794254A109300832862 /* EditValueInteractor.swift in Sources */,
 				A5E7986D255304F100DCC918 /* Styles.swift in Sources */,
-				A5530E2C2521406A00739F00 /* LogInputType.swift in Sources */,
 				A5B6D7D2254768E000DDB5E2 /* EditValueView.swift in Sources */,
 				A5DE7799254A110000832862 /* EditValueScene.swift in Sources */,
 				A5E79888255351C800DCC918 /* DataEntryCell.swift in Sources */,
 				A5E798752553059D00DCC918 /* CellStyle.swift in Sources */,
 				A5DEED872558714100CD4E25 /* DateItemCell.swift in Sources */,
-				A5B022242525791C007412CC /* Item.swift in Sources */,
 				A5DEED8F2558716F00CD4E25 /* ComputedValueItemCell.swift in Sources */,
 				A5DEED7F2558701300CD4E25 /* WrapInNavigationLink.swift in Sources */,
 				A5DEED982558741200CD4E25 /* StandardButton.swift in Sources */,
 				A5BB058F251FCD2300694FF9 /* RaindropApp.swift in Sources */,
-				A5000C2B2528D60700A0CB77 /* Checklist.swift in Sources */,
 				A5E40CD9254DD7270028B475 /* EditValueService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
